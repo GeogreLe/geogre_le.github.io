@@ -1,0 +1,18 @@
+#include<iostream>
+#include<conio.h>
+#include<math.h>
+using namespace std;
+#define PI 3.1415926
+int main()
+{
+	int r;
+	int dienTich, theTich;
+	cout << "Bán kính r = ";
+	cin >> r;
+	theTich = 4 / 3 * PI * r * r * r;
+	dienTich = 4 * PI * r * r;
+	cout << endl << "The tich khoi cau V = " << theTich;
+	cout << endl << "Dien tich khoi cau S = " << dienTich;
+	_getch();
+	return 1;
+}
